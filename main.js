@@ -125,10 +125,17 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
 
+    // Preload images to prevent delay on first hover
+    const preloadedImages = {};
     priceRows.forEach(row => {
+      const imageUrl = row.getAttribute('data-image');
+      if (imageUrl) {
+        preloadedImages[imageUrl] = new Image();
+        preloadedImages[imageUrl].src = imageUrl;
+      }
+
       row.addEventListener('mouseenter', (e) => {
         if (!row.parentElement.classList.contains('active')) {
-          const imageUrl = row.getAttribute('data-image');
           hoverImageEl.style.backgroundImage = `url(${imageUrl})`;
           hoverImageEl.classList.add('active');
           hoverImageEl.style.left = (e.clientX + 50) + 'px';
