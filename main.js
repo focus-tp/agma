@@ -171,14 +171,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (cookieBanner && cookieAcceptBtn) {
     // Check if user already accepted
-    if (!localStorage.getItem('cookiesAccepted')) {
+    if (!localStorage.getItem('cookiesAccepted_v2')) {
       setTimeout(() => {
         cookieBanner.classList.add('show');
       }, 2000); // Show after 2 seconds
     }
 
     cookieAcceptBtn.addEventListener('click', () => {
-      localStorage.setItem('cookiesAccepted', 'true');
+      localStorage.setItem('cookiesAccepted_v2', 'true');
       cookieBanner.classList.remove('show');
     });
   }
