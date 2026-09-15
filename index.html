@@ -1,534 +1,863 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/jpeg" href="/logo.jpg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Салон красоты Beauty Sekta | Екатеринбург</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
-  </head>
-  <body>
-    <div class="noise-overlay"></div>
 
-    
-    <div id="hover-image-reveal"></div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agma Beauty | Салон красоты в Екатеринбурге</title>
+  <meta name="description"
+    content="Agma Beauty — салон красоты в Екатеринбурге: волосы, маникюр, педикюр, брови, ресницы и визаж. Ул. Ломоносова, 55.">
+  <meta property="og:title" content="Agma Beauty | Екатеринбург">
+  <meta property="og:description" content="Салон красоты в Екатеринбурге. Записаться онлайн →">
+  <meta property="og:image" content="./agma_yandex_03.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
 
+<body>
+  <div class="noise-overlay"></div>
+  <div id="hover-image-reveal"></div>
 
-    <!-- Custom Cursor -->
-    <div class="custom-cursor" id="custom-cursor">
-      <div class="cursor-text">Смотреть</div>
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="custom-cursor">
+    <div class="cursor-text">Смотреть</div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header-container">
+        <a href="#home" class="logo" aria-label="Agma Beauty">
+          <img src="./agma-logo.png" alt="Agma Beauty" class="header-logo-img">
+        </a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#manifesto" class="nav-link">Ценности</a></li>
+          <li><a href="#services" class="nav-link">Услуги</a></li>
+          <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+          <li><a href="#team" class="nav-link">Команда</a></li>
+          <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+          <li><a href="#contact" class="nav-link">Контакты</a></li>
+        </ul>
+      </nav>
+      <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="btn btn-outline">Записаться онлайн</a>
+      <div class="burger-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </div>
+  </header>
 
-    <!-- Custom Cursor -->
-    
-    </div>
+  <div class="mobile-menu-overlay">
+    <ul class="mobile-nav-list">
+      <li><a href="#home" class="mobile-nav-link">Главная</a></li>
+      <li><a href="#manifesto" class="mobile-nav-link">Ценности</a></li>
+      <li><a href="#services" class="mobile-nav-link">Услуги</a></li>
+      <li><a href="#portfolio" class="mobile-nav-link">Портфолио</a></li>
+      <li><a href="#team" class="mobile-nav-link">Команда</a></li>
+      <li><a href="#reviews" class="mobile-nav-link">Отзывы</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Контакты</a></li>
+    </ul>
+  </div>
 
-    <header class="header" id="header">
-      <div class="container header-container">
-        <a href="#home" class="logo logo-difference" style="text-decoration: none;">Beauty Sekta</a>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a href="#manifesto" class="nav-link">Ценности</a></li>
-            <li><a href="#services" class="nav-link">Услуги</a></li>
-            <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
-            <li><a href="#team" class="nav-link">Команда</a></li>
-            <li><a href="#contact" class="nav-link">Контакты</a></li>
+  <main>
+    <!-- ═══════════════════════════════════════ HERO ═══════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img src="./agma-founder-fashion.png" alt="Анастасия Салахутдинова, основательница Agma Beauty"
+          class="hero-img" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <!-- Floating badge -->
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Салон красоты · Екатеринбург
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-title-wrap">
+          <h1 class="hero-title">
+            <span class="hero-line hero-line-1">Agma</span>
+            <span class="hero-line hero-line-2">Beauty</span>
+          </h1>
+        </div>
+        <p class="hero-subtitle hero-reveal-sub">
+          <strong>Красота, которая остаётся вашей.</strong><br>
+          Волосы, ногтевой сервис, брови и ресницы — Екатеринбург.
+        </p>
+        <div class="hero-actions hero-reveal-actions">
+          <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="btn btn-primary btn-large">Записаться
+            онлайн</a>
+          <a href="#portfolio" class="btn btn-ghost">Смотреть работы ↓</a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>scroll</span>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ MANIFESTO ═══════════════════════════════════════ -->
+    <section class="manifesto section-dark" id="manifesto">
+
+      <div class="marquee-bg">
+        <div class="marquee-content">
+          <span>AGMA BEAUTY </span>
+          <span>AGMA BEAUTY </span>
+          <span>AGMA BEAUTY </span>
+          <span>AGMA BEAUTY </span>
+        </div>
+      </div>
+
+      <div class="container manifesto-container">
+
+        <div class="manifesto-header animate-on-scroll">
+          <h2 class="manifesto-title">Agma Beauty — салон красоты на Уралмаше</h2>
+        </div>
+
+        <div class="manifesto-block animate-on-scroll">
+          <p class="manifesto-lead">Agma Beauty находится в Екатеринбурге,<br>на улице Ломоносова, 55.</p>
+          <p><strong>Салон объединяет несколько бьюти-направлений.</strong></p>
+          <p>Здесь можно записаться на парикмахерские услуги, ногтевой сервис, оформление бровей и ресниц, визаж и уход.
+          </p>
+        </div>
+
+        <div class="manifesto-block animate-on-scroll">
+          <h2>Что представлено в салоне</h2>
+          <p>По информации публичной карточки Agma Beauty доступны:</p>
+          <ul class="manifesto-list">
+            <li>стрижки, окрашивание и укладки</li>
+            <li>маникюр, педикюр и дизайн ногтей</li>
+            <li>брови, ресницы и визаж</li>
+            <li>уходовые процедуры</li>
           </ul>
-        </nav>
-        <a href="https://dikidi.net/ru/profile/beautysekta_849014" target="_blank" class="btn btn-outline">Запись онлайн</a>
-        <div class="burger-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
+          <p class="manifesto-highlight">Актуальную запись и детали можно уточнить по телефону или в социальных сетях
+            салона.</p>
+        </div>
+
+        <div class="manifesto-image animate-on-scroll">
+          <img src="./agma-nails-fashion.png" alt="Маникюр в Agma Beauty" class="manifesto-img" />
+        </div>
+
+        <div class="manifesto-block animate-on-scroll">
+          <h2>Популярные услуги</h2>
+          <div class="values-editorial-grid">
+            <div class="val-card">
+              <div class="val-card-num">01</div>
+              <h4>Френч</h4>
+              <p>Комплекс у мастера — 1 500 ₽ по публичной карточке компании.</p>
+            </div>
+            <div class="val-card">
+              <div class="val-card-num">02</div>
+              <h4>Педикюр</h4>
+              <p>Комплекс у топ-мастера — 1 800 ₽ по публичной карточке компании.</p>
+            </div>
+            <div class="val-card">
+              <div class="val-card-num">03</div>
+              <h4>Наращивание волос</h4>
+              <p>Услуга указана в карточке Agma Beauty от 10 000 ₽.</p>
+            </div>
+            <div class="val-card">
+              <div class="val-card-num">04</div>
+              <h4>Стрижки</h4>
+              <p>Женская стрижка — от 350 ₽, мужская — от 100 ₽.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="manifesto-block animate-on-scroll">
+          <h2>Как записаться</h2>
+          <p>Связаться с Agma Beauty можно по телефону, в Telegram или ВКонтакте.</p>
+          <p>Салон отмечен на Яндекс Картах, где также собраны отзывы, фото и актуальные контакты.</p>
+          <ul class="manifesto-list">
+            <li>телефон: +7 (912) 691-85-40</li>
+            <li>адрес: Екатеринбург, ул. Ломоносова, 55</li>
+          </ul>
+          <p class="manifesto-highlight">Перед визитом лучше подтвердить время и стоимость выбранной услуги.</p>
+
+          <h3 class="margin-top">Основные категории</h3>
+          <ul class="manifesto-list">
+            <li>парикмахерские услуги</li>
+            <li>ногтевая студия</li>
+            <li>салон красоты</li>
+          </ul>
+        </div>
+
+        <div class="manifesto-block animate-on-scroll text-center">
+          <h2>Agma Beauty</h2>
+          <p>Екатеринбург · улица Ломоносова, 55</p>
+          <p class="manifesto-lead">Запись и консультации — в сообщениях ВКонтакте или по телефону.</p>
+          <p class="small-text">График: ежедневно с 10:00 до 20:00.</p>
+          <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="btn btn-primary margin-top">Записаться
+            онлайн</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ PORTFOLIO ═══════════════════════════════════════ -->
+    <section class="portfolio-section section-dark" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header animate-on-scroll">
+          <span class="section-label">Фотогалерея</span>
+          <h2 class="section-title">Agma Beauty</h2>
+          <p class="section-desc">Фотографии салона, работ и бьюти-средств из публичной карточки Agma Beauty.</p>
         </div>
       </div>
-    </header>
 
-    <div class="mobile-menu-overlay">
-      <ul class="mobile-nav-list">
-        <li><a href="#home" class="mobile-nav-link">Главная</a></li>
-        <li><a href="#manifesto" class="mobile-nav-link">Ценности</a></li>
-        <li><a href="#services" class="mobile-nav-link">Услуги</a></li>
-        <li><a href="#portfolio" class="mobile-nav-link">Портфолио</a></li>
-        <li><a href="#team" class="mobile-nav-link">Команда</a></li>
-        <li><a href="#contact" class="mobile-nav-link">Контакты</a></li>
-      </ul>
-    </div>
-
-
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-bg">
-          <img src="/master_clean1.jpg" alt="Beauty Sekta Наталья" class="hero-img" />
-          <div class="hero-overlay"></div>
-        </div>
-        <div class="container hero-content animate-on-scroll">
-          <h1 class="hero-title">Твоя красота<br>Твоя секта</h1>
-          <p class="hero-subtitle">Премиальный салон красоты в Екатеринбурге.<br>Закрытое комьюнити тех, кто выбирает для себя только лучшее.</p>
-          <a href="https://dikidi.net/ru/profile/beautysekta_849014" target="_blank" class="btn btn-primary btn-large">Записаться в секту</a>
-        </div>
-      </section>
-
-      <section class="manifesto section-dark" id="manifesto">
-
-        <div class="marquee-bg">
-          <div class="marquee-content">
-            <span>ТВОЯ КРАСОТА ТВОЯ СЕКТА </span>
-            <span>ТВОЯ КРАСОТА ТВОЯ СЕКТА </span>
-            <span>ТВОЯ КРАСОТА ТВОЯ СЕКТА </span>
-            <span>ТВОЯ КРАСОТА ТВОЯ СЕКТА </span>
-          </div>
-        </div>
-
-        <div class="container manifesto-container">
-          
-          <div class="manifesto-header animate-on-scroll">
-            <h2 class="manifesto-title">Салон, в который приходят не за волосами</h2>
-          </div>
-
-          <div class="manifesto-block animate-on-scroll">
-            <p class="manifesto-lead">Есть салоны, куда приходят “подстричься”.<br>А есть места, после которых меняется ощущение себя.</p>
-            <p><strong>Мы — про второе.</strong></p>
-            <p>Не про «сделать цвет». А про вернуть тебе состояние: когда смотришь в зеркало и думаешь — <em>вот это я.</em></p>
-          </div>
-
-          <div class="manifesto-block animate-on-scroll">
-            <h2>Почему к нам возвращаются?</h2>
-            <p>Не из-за скидок. Не из-за “акций до конца месяца”. А потому что здесь:</p>
-            <ul class="manifesto-list">
-              <li>тебя слышат, а не просто кивают</li>
-              <li>не делают «как у всех», а делают под тебя</li>
-              <li>не экономят время на тебе, даже если плотная запись</li>
-              <li>честно говорят, если что-то тебе не пойдёт</li>
-            </ul>
-            <p class="manifesto-highlight">Мы не работаем “на поток”. Мы работаем на результат, который ты будешь носить каждый день.</p>
-          </div>
-
-          <div class="manifesto-image animate-on-scroll">
-             <img src="/team_value.jpg" alt="Команда Beauty Sekta" class="manifesto-img" />
-          </div>
-
-          <div class="manifesto-block animate-on-scroll">
-            <h2>Наши ценности</h2>
-            <div class="values-editorial-grid">
-              <div class="val-card">
-                <h4>1. Честность</h4>
-                <p>Если цвет не проживёт — скажем. Если волосы не выдержат — остановим. Мы не продаём — мы сохраняем.</p>
-              </div>
-              <div class="val-card">
-                <h4>2. Эстетика без перегруза</h4>
-                <p>Не “вау ради вау”. А красиво, дорого и уместно в твоей жизни.</p>
-              </div>
-              <div class="val-card">
-                <h4>3. Сервис, который чувствуется</h4>
-                <p>Это не кофе и не плед. Это когда тебе спокойно. Когда не надо напрягаться, объяснять и контролировать.</p>
-              </div>
-              <div class="val-card">
-                <h4>4. Результат важнее процесса</h4>
-                <p>Можно красиво снять видео. Но если через неделю волосы не укладываются — это провал. Мы так не работаем.</p>
-              </div>
+      <!-- Horizontal drag-scroll carousel -->
+      <div class="portfolio-scroll-wrap">
+        <div class="portfolio-track" id="portfolio-track">
+          <div class="portfolio-item portfolio-item--tall">
+            <img src="./agma_yandex_01.jpg" alt="Маникюр в Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Маникюр</span>
             </div>
           </div>
-
-          <div class="manifesto-block animate-on-scroll">
-            <h2>Чем мы отличаемся</h2>
-            <p>Сейчас много салонов с одинаковыми картинками. Одинаковыми мастерами. Одинаковыми обещаниями.</p>
-            <p>Но реальность простая:</p>
-            <ul class="manifesto-list">
-              <li>90% делают визуал</li>
-              <li>10% делают результат</li>
-            </ul>
-            <p class="manifesto-highlight">Мы в этих 10%.</p>
-            
-            <h3 class="margin-top">Кому к нам точно стоит прийти?</h3>
-            <ul class="manifesto-list">
-              <li>если устала от «ну вроде нормально»</li>
-              <li>если хочешь выглядеть дороже без перегруза</li>
-              <li>если важен не процесс, а итог</li>
-              <li>если хочешь, чтобы тебя почувствовали, а не просто обслужили</li>
-            </ul>
+          <div class="portfolio-item">
+            <img src="./agma_yandex_02.jpg" alt="Средства для ухода в Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Уход</span>
+            </div>
           </div>
-
-          <div class="manifesto-block animate-on-scroll text-center">
-            <h2>И главное</h2>
-            <p>Мы не для всех. И это нормально.</p>
-            <p class="manifesto-lead">Но если ты хочешь: не просто услугу, а состояние, в котором ты себе нравишься — тогда тебе к нам.</p>
-            <p class="small-text">(и да, лучше не откладывать — хорошие окна долго не живут)</p>
-            <a href="https://dikidi.net/ru/profile/beautysekta_849014" target="_blank" class="btn btn-primary margin-top">Записаться онлайн</a>
+          <div class="portfolio-item portfolio-item--tall">
+            <img src="./agma_yandex_03.jpg" alt="Интерьер Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Интерьер</span>
+            </div>
           </div>
-
-        </div>
-      </section>
-
-      <section class="team-pinterest section-dark" id="team">
-        <div class="container">
-          <div class="team-header animate-on-scroll">
-            <h2 class="section-title">Мастера Beauty Sekta</h2>
+          <div class="portfolio-item">
+            <img src="./agma-nails-fashion.png" alt="Маникюр в Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Маникюр</span>
+            </div>
           </div>
-          <div class="masonry-grid">
-            
-            <!-- Item 1: Top Left -->
-            <div class="editorial-image-wrapper animate-on-scroll">
-              <img src="/master_clean1.jpg" alt="Наталья Фокина" />
-              <div class="ig-story-overlay">
-                <h3 class="ig-story-name">НАТАЛЬЯ<br>ФОКИНА</h3>
-                <div class="ig-story-text">
-                  <p>Сооснователь салона.</p>
-                  <p>Идейный вдохновитель Beauty Sekta. Обучает мастеров <strong>авторским методикам</strong>.</p>
-                  <p>Направление:</p>
-                  <ul>
-                    <li>Сложные окрашивания и стрижки</li>
-                    <li>Контроль качества</li>
-                  </ul>
-                </div>
-              </div>
+          <div class="portfolio-item portfolio-item--tall">
+            <img src="./agma_yandex_02.jpg" alt="Средства для ухода в Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Для волос</span>
             </div>
-
-            <!-- Item 2: Bottom Left -->
-            <div class="editorial-image-wrapper animate-on-scroll tall">
-              <img src="/master_clean2.jpeg" alt="Екатерина Чечулина" />
-              <div class="ig-story-overlay">
-                <h3 class="ig-story-name">ЕКАТЕРИНА<br>ЧЕЧУЛИНА</h3>
-                <div class="ig-story-text">
-                  <p>Опыт 5 лет.</p>
-                  <ul>
-                    <li>Короткие стрижки</li>
-                    <li>Передовые окрашивания</li>
-                  </ul>
-                </div>
-              </div>
+          </div>
+          <div class="portfolio-item">
+            <img src="./agma-nails-fashion.png" alt="Маникюр в Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Маникюр</span>
             </div>
-
-            <!-- Item 3: Top Right -->
-            <div class="editorial-image-wrapper animate-on-scroll">
-              <img src="/master_clean3.jpg" alt="Анастасия Левашова" />
-              <div class="ig-story-overlay">
-                <h3 class="ig-story-name">АНАСТАСИЯ<br>ЛЕВАШОВА</h3>
-                <div class="ig-story-text">
-                  <ul>
-                    <li>Сложный блонд</li>
-                    <li>Трихология и уходы</li>
-                  </ul>
-                </div>
-              </div>
+          </div>
+          <div class="portfolio-item portfolio-item--tall">
+            <img src="./agma_yandex_01.jpg" alt="Маникюр Agma Beauty" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Маникюр</span>
             </div>
-
-            <!-- Item 4: Bottom Right -->
-            <div class="editorial-image-wrapper animate-on-scroll tall">
-              <img src="/master_clean4.jpg" alt="Александра Вохмина" />
-              <div class="ig-story-overlay">
-                <h3 class="ig-story-name">АЛЕКСАНДРА<br>ВОХМИНА</h3>
-                <div class="ig-story-text">
-                  <ul>
-                    <li>Кудрявый метод укладки</li>
-                    <li>Современные окрашивания</li>
-                    <li>Завивка и модельные стрижки</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
-      </section>
-
-      <!-- Services Section -->
-      <section class="services-section section-dark" id="services">
-        <div class="container">
-          <div class="section-header animate-on-scroll">
-            <h2 class="section-title">Услуги и Цены</h2>
-            <p class="section-desc">Выберите категорию, чтобы ознакомиться с подробным прайс-листом.</p>
-          </div>
-          
-          <div class="accordion-container animate-on-scroll">
-
-            <!-- Волосы -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_hair.png">
-                <h3>Волосы</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                                    <div class="price-row"><span class="price-name">Консультация</span><span class="price-dots"></span><span class="price-value">0 р</span></div>
-                  <div class="price-row"><span class="price-name">AirTouch (аиртач)</span><span class="price-dots"></span><span class="price-value">от 14 000 ₽</span></div>
-                                    <div class="price-row"><span class="price-name">БИОзавивка волос</span><span class="price-dots"></span><span class="price-value">от 12 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Выход из темного</span><span class="price-dots"></span><span class="price-value">от 15 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Идеальный блонд. Мастер</span><span class="price-dots"></span><span class="price-value">от 6 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Идеальный блонд. Топ Мастер</span><span class="price-dots"></span><span class="price-value">от 9 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Контуринг. Мастер</span><span class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Контуринг. Топ Мастер</span><span class="price-dots"></span><span class="price-value">от 9 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Мытье головы и сушка по форме стрижки</span><span class="price-dots"></span><span class="price-value">от 1 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Мытье головы ПЕРЕД УКЛАДКОЙ</span><span class="price-dots"></span><span class="price-value">от 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание в 1 тон. На тон светлее или темнее. Мастер</span><span class="price-dots"></span><span class="price-value">от 5 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание в 1 тон. На тон светлее или темнее. Топ мастер</span><span class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Рассветление прядей (блики) - доп услуга к окрашиванию</span><span class="price-dots"></span><span class="price-value">от 2 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание корней. Мастер</span><span class="price-dots"></span><span class="price-value">от 4 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание корней. Топ Мастер</span><span class="price-dots"></span><span class="price-value">от 5 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Пилинг кожи головы (доп. услуга)</span><span class="price-dots"></span><span class="price-value">400 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Подравнивание кончиков</span><span class="price-dots"></span><span class="price-value">от 1 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Прическа</span><span class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Профессиональный салонный уход для волос</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Сложное окрашивание. Топ мастер</span><span class="price-dots"></span><span class="price-value">от 18 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Сложное окрашивание. Мастер</span><span class="price-dots"></span><span class="price-value">от 13 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Стрижка женская (короткие волосы, до линии подбородка)</span><span class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Стрижка женская (средние волосы, до лопаток)</span><span class="price-dots"></span><span class="price-value">от 2 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Стрижка женская (длинные волосы, от лопаток)</span><span class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Стрижка + салонный уход</span><span class="price-dots"></span><span class="price-value">4 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция челки</span><span class="price-dots"></span><span class="price-value">от 700 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Создание челки</span><span class="price-dots"></span><span class="price-value">от 1 200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Тонирование, окрашивание тон в тон</span><span class="price-dots"></span><span class="price-value">от 5 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Тонирование. Топ мастер</span><span class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Трихоскопия</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Укладка волос на утюг и/или плойку</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция сложного окрашивания</span><span class="price-dots"></span><span class="price-value">от 11 000 ₽</span></div>
-                
-                  <div class="price-row"><span class="price-name">БИОзавивка волос (короткие волосы)</span><span class="price-dots"></span><span class="price-value">6 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Стрижка женская (длинные волосы, от лопаток)</span><span class="price-dots"></span><span class="price-value">2 700 ₽</span></div>
-</div>
-              </div>
-            </div>
-
-            <!-- Ногти -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_nails.png">
-                <h3>Ногти</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Френч/втирка/стемпинг ДИЗАЙН 1 шт (1 ноготь)</span><span class="price-dots"></span><span class="price-value">50 ₽</span></div>
-                  <div class="price-row"><span class="price-name">ПЛЁНКИ (установка дизайна 1шт)</span><span class="price-dots"></span><span class="price-value">100 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Маникюр аппаратный /Комби (без покрытия)</span><span class="price-dots"></span><span class="price-value">от 1 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Маникюр мужской</span><span class="price-dots"></span><span class="price-value">от 1 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Маникюр с покрытием ГЕЛЬ ЛАК (укрепление включено)</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Маникюр Японский Masura /P.shine (+аппаратный)</span><span class="price-dots"></span><span class="price-value">от 2 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Наращивание сломанного ногтя 1 шт при выполнении маникюра</span><span class="price-dots"></span><span class="price-value">200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Наращивание ногтей на верхние формы (средние/длинные) квадрат, миндаль, овал, балерина</span><span class="price-dots"></span><span class="price-value">от 3 800 ₽</span></div>
-                
-                  <div class="price-row"><span class="price-name">Педикюр Golden trace (стопа+пальчики) без покрытия</span><span class="price-dots"></span><span class="price-value">от 3 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Golden trace ПОЛНЫЙ (стопа, пальчики) + покрытие ГЕЛЬ-ЛАК</span><span class="price-dots"></span><span class="price-value">от 4 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Kane professional ПОЛНЫЙ препаратный/дисковый (стопа + пальцы) + покрытие ГЕЛЬ ЛАК</span><span class="price-dots"></span><span class="price-value">от 3 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Kane professional препаратный/дисковый (стопа + пальцы) без покрытия</span><span class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Smart (СМАРТ) Мужской (обработка стопы smart дисками + пальцы аппарат)</span><span class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Smart (СМАРТ) БЕЗ ПОКРЫТИЯ (обработка стопы дисками smart + пальчики аппарат)</span><span class="price-dots"></span><span class="price-value">от 2 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр Smart (СМАРТ) ПОЛНЫЙ + покрытие ГЕЛЬ ЛАК</span><span class="price-dots"></span><span class="price-value">3 300 ₽</span></div>
-                  <div class="price-row"><span class="price-name">ПЛЁНКИ (установка дизайна на 10 пальцев ног)</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики) + покрытие ГЕЛЬ ЛАК</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики) без покрытия</span><span class="price-dots"></span><span class="price-value">от 1 900 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Покрытие обычным цветным лаком (Masura)</span><span class="price-dots"></span><span class="price-value">200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Ремонт покрытия (не по гарантии, или работа стороннего мастера) 1 ноготь</span><span class="price-dots"></span><span class="price-value">от 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Ремонт покрытия по гарантии (10 дней)</span><span class="price-dots"></span><span class="price-value">0 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Ремонт трещины (при выполнении полной процедуры маникюра)</span><span class="price-dots"></span><span class="price-value">от 100 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Снятие гель лака (без последующего покрытия) + опил формы</span><span class="price-dots"></span><span class="price-value">700 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Снятие гель-лака (с последующим покрытием, работа стороннего мастера)</span><span class="price-dots"></span><span class="price-value">200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Работа с длинными ногтями (доп оплата за сложность работы/расход материала) при последующем покрытии</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Снятие наращенных ногтей (или длинных) + убрать длину + опил формы (без обработки кутикулы и покрытия)</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Френч/втирка/стемпинг/кошка ДИЗАЙН 10 ногтей (все ногти)</span><span class="price-dots"></span><span class="price-value">от 300 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция наращенных ногтей (верхние формы) - через месяц</span><span class="price-dots"></span><span class="price-value">от 3 300 ₽</span></div>
-
-                
-                  <div class="price-row"><span class="price-name">Маникюр детский (5-12 лет)</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Омбре/градиент/кошачий глаз 10 ногтей</span><span class="price-dots"></span><span class="price-value">от 300 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики без покрытия)</span><span class="price-dots"></span><span class="price-value">1 900 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики) + покрытие ГЕЛЬ ЛАК - АКЦИЯ 🔥-10%</span><span class="price-dots"></span><span class="price-value">2 160 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Реставрация ногтей верхними формами (короткие/средние)</span><span class="price-dots"></span><span class="price-value">3 500 ₽</span></div>
-
-                </div>
-                
-
-              </div>
-            </div>
-
-            
-            <!-- Брови -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_brows.png">
-                <h3>Брови</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Ботокс для бровей/ресниц (Доп услуга к окрашиванию или ламинированию)</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ БРОВЕЙ»</span><span class="price-dots"></span><span class="price-value">от 2 200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ РЕСНИЦ И БРОВЕЙ»</span><span class="price-dots"></span><span class="price-value">от 4 400 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция +прореживание+ окрашивание бровей</span><span class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция бровей (воск+пинцет)</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция+окрашивание бровей</span><span class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Ламинирование бровей (без окрашивания и коррекции)</span><span class="price-dots"></span><span class="price-value">1 400 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Мужская коррекция бровей</span><span class="price-dots"></span><span class="price-value">1 200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание бровей (краска/хна)</span><span class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Осветление бровей+ тонирование</span><span class="price-dots"></span><span class="price-value">1 600 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Удаление волос на лице (1 зона)</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Ламинирование бровей+ коррекция (без окрашивания)</span><span class="price-dots"></span><span class="price-value">1 800 ₽</span></div>
-                </div>
-              </div>
-            </div>
-
-            
-            <!-- Ресницы -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_lashes.png">
-                <h3>Ресницы</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">1,5D наращивание ресниц</span><span class="price-dots"></span><span class="price-value">2 600 ₽</span></div>
-                  <div class="price-row"><span class="price-name">2D наращивание ресниц</span><span class="price-dots"></span><span class="price-value">2 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">3D наращивание ресниц</span><span class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Классическое наращивание ресниц</span><span class="price-dots"></span><span class="price-value">2 400 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ РЕСНИЦ»</span><span class="price-dots"></span><span class="price-value">от 2 200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция наращивания ресниц 2Д (в течении 2-х недель)</span><span class="price-dots"></span><span class="price-value">2 300 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция ресниц по гарантии (7 дней)</span><span class="price-dots"></span><span class="price-value">0 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Лучики</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Мокрый эффект</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Наращивание внешних уголков ресниц</span><span class="price-dots"></span><span class="price-value">1 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Окрашивание ресниц</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Снятие наращенных ресниц</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Цветное наращивание</span><span class="price-dots"></span><span class="price-value">3 200 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Цветные ресницы (добавление к наращиванию)</span><span class="price-dots"></span><span class="price-value">500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Экспресс наращивание ресниц</span><span class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция наращивания ресниц 3D (в течении 2-х недель после наращивания)</span><span class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Макияж -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_makeup.png">
-                <h3>Макияж</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Вечерний макияж</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Дневной макияж</span><span class="price-dots"></span><span class="price-value">от 2 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Образ (макияж + укладка)</span><span class="price-dots"></span><span class="price-value">от 4 800 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Экспресс макияж</span><span class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Перманентный макияж -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_pm.png">
-                <h3>Перманентный макияж</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Дополнительная коррекция перманентного макияжа (делается в течении 2-х месяцев после коррекции)</span><span class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Консультация по перманентному макияжу</span><span class="price-dots"></span><span class="price-value">0 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Коррекция перманентного макияжа (выполняется в течении 2-х месяцев после первичной процедуры)</span><span class="price-dots"></span><span class="price-value">4 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Лазерное удаление татуажа</span><span class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Перманентный макияж бровей</span><span class="price-dots"></span><span class="price-value">8 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Рефреш перманентного макияжа</span><span class="price-dots"></span><span class="price-value">6 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Удаление татуажа ремувером</span><span class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Перекрытие старого тутуажа</span><span class="price-dots"></span><span class="price-value">8 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Удаление мини татуировки</span><span class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Лицо -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_face.png">
-                <h3>Лицо</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Карбоновый пилинг</span><span class="price-dots"></span><span class="price-value">1 500 ₽</span></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Обучение -->
-            <div class="accordion-item">
-              <button class="accordion-header" data-image="./category_education.png">
-                <h3>Обучение</h3>
-                <span class="accordion-icon"></span>
-              </button>
-              <div class="accordion-content">
-
-                <div class="price-list">
-                  <div class="price-row"><span class="price-name">Курс педикюр - БАЗОВЫЙ - пальчики (1 день/2модели)</span><span class="price-dots"></span><span class="price-value">15 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» Пакет #2</span><span class="price-dots"></span><span class="price-value">15 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение «Повышение квалификации,ламинирование ресниц/бровей»</span><span class="price-dots"></span><span class="price-value">12 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение "Базовый курс - мастер маникюра" 3 дня</span><span class="price-dots"></span><span class="price-value">20 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» пакет #1</span><span class="price-dots"></span><span class="price-value">10 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение «Базовый курс ламинирование ресниц»</span><span class="price-dots"></span><span class="price-value">20 000 ₽</span></div>
-                  <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» пакет #3</span><span class="price-dots"></span><span class="price-value">25 000 ₽</span></div>
-                </div>
-              </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="contact section-light" id="contact">
-        <div class="container contact-container">
-          <div class="contact-info animate-on-scroll">
-            <h2 class="section-title">Свяжитесь с нами</h2>
-            <ul class="contact-list">
-              <li>
-                <span class="contact-label">Телефон:</span>
-                <a href="tel:+79826502233" class="contact-link">+7 (982) 650-22-33</a>
-              </li>
-              <li>
-                <span class="contact-label">Адрес:</span>
-                <span>Екатеринбург, ул. Начдива Васильева, 14/2<br>(ЖК «Флагман»)</span>
-              </li>
-              <li>
-                <span class="contact-label">Запись онлайн:</span>
-                <a href="https://dikidi.net/ru/profile/beautysekta_849014" target="_blank" class="contact-link">Онлайн-приложение</a>
-              </li>
-              <li>
-                <span class="contact-label">Соцсети:</span>
-                <div class="social-links">
-                  <a href="https://vk.com/bsekat" target="_blank" class="social-link">ВКонтакте</a>
-                  <a href="https://www.instagram.com/beautysekta_ekb" target="_blank" class="social-link">Instagram</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="contact-map animate-on-scroll">
-            <iframe src="https://yandex.ru/map-widget/v1/?mode=search&text=Екатеринбург,+ул.+Начдива+Васильева,+14/2&z=16" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative; border-radius: 8px; border: 1px solid rgba(255,255,255,0.1);"></iframe>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-container">
-        <p>&copy; 2026 Beauty Sekta. Все права защищены.</p>
-        <p class="footer-design">Дизайн и разработка: Premium Web Solutions</p>
       </div>
-    </footer>
 
-    <div class="mobile-bottom-bar">
-      <a href="#services" class="bottom-bar-btn btn-secondary">Прайс-лист</a>
-      <a href="https://dikidi.net/ru/profile/beautysekta_849014" target="_blank" class="bottom-bar-btn btn-primary">Записаться онлайн</a>
-    </div>
+      <div class="container">
+        <div class="portfolio-cta animate-on-scroll">
+          <p class="portfolio-cta-text">Больше фотографий — в публичной карточке салона</p>
+          <a href="https://yandex.ru/maps/org/agma_beauty/172209800609/gallery/" target="_blank"
+            class="btn btn-outline">Открыть фотогалерею →</a>
+        </div>
+      </div>
+    </section>
 
-    <script type="module" src="/main.js"></script>
-  
-    <!-- Cookie Banner -->
-    <div class="cookie-banner" id="cookie-banner">
-      <p>Мы используем файлы cookie для улучшения работы сайта. Оставаясь на сайте, вы соглашаетесь с нашей <a href="#">политикой обработки данных</a>.</p>
-      <button class="btn btn-primary cookie-btn" id="cookie-accept">Понятно</button>
+    <!-- ═══════════════════════════════════════ TEAM ═══════════════════════════════════════ -->
+    <section class="team-pinterest section-dark" id="team">
+      <div class="container">
+        <div class="team-header animate-on-scroll">
+          <span class="section-label">Направления</span>
+          <h2 class="section-title">Красота в одном месте</h2>
+        </div>
+        <div class="masonry-grid">
+
+          <!-- Item 1 -->
+          <div class="master-card animate-on-scroll">
+            <div class="master-img-wrap">
+              <img src="./agma_yandex_03.jpg" alt="Услуги для волос в Agma Beauty" />
+              <div class="master-hover-overlay">
+                <div class="master-hover-content">
+                  <div class="master-tags">
+                    <span class="tag">#стрижки</span>
+                    <span class="tag">#окрашивание</span>
+                  </div>
+                  <p>Стрижки, окрашивания, укладки и уход за волосами.</p>
+                </div>
+              </div>
+            </div>
+            <div class="master-info">
+              <h3 class="master-name">Волосы</h3>
+              <span class="master-role">Стрижки · окрашивание · уход</span>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="master-card master-card--offset animate-on-scroll" style="transition-delay: 0.15s">
+            <div class="master-img-wrap">
+              <img src="./agma_yandex_01.jpg" alt="Маникюр в Agma Beauty" />
+              <div class="master-hover-overlay">
+                <div class="master-hover-content">
+                  <div class="master-tags">
+                    <span class="tag">#маникюр</span>
+                    <span class="tag">#педикюр</span>
+                  </div>
+                  <p>Маникюр, педикюр, дизайн и бережный уход за ногтями.</p>
+                </div>
+              </div>
+            </div>
+            <div class="master-info">
+              <h3 class="master-name">Ногтевой сервис</h3>
+              <span class="master-role">Маникюр · педикюр · дизайн</span>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="master-card animate-on-scroll" style="transition-delay: 0.3s">
+            <div class="master-img-wrap">
+              <img src="./agma_yandex_02.jpg" alt="Бьюти-средства Agma Beauty" />
+              <div class="master-hover-overlay">
+                <div class="master-hover-content">
+                  <div class="master-tags">
+                    <span class="tag">#брови</span>
+                    <span class="tag">#ресницы</span>
+                  </div>
+                  <p>Оформление и окрашивание бровей, ресницы и выразительный взгляд.</p>
+                </div>
+              </div>
+            </div>
+            <div class="master-info">
+              <h3 class="master-name">Брови и ресницы</h3>
+              <span class="master-role">Оформление · окрашивание · ламинирование</span>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="master-card master-card--offset animate-on-scroll" style="transition-delay: 0.45s">
+            <div class="master-img-wrap">
+              <img src="./agma_yandex_02.jpg" alt="Бьюти-средства Agma Beauty" />
+              <div class="master-hover-overlay">
+                <div class="master-hover-content">
+                  <div class="master-tags">
+                    <span class="tag">#визаж</span>
+                    <span class="tag">#уход</span>
+                  </div>
+                  <p>Визаж и уходовые процедуры для завершённого образа.</p>
+                </div>
+              </div>
+            </div>
+            <div class="master-info">
+              <h3 class="master-name">Визаж и уход</h3>
+              <span class="master-role">Макияж · уходовые процедуры</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-dark" id="services">
+      <div class="container">
+        <div class="section-header animate-on-scroll">
+          <span class="section-label">Прайс-лист</span>
+          <h2 class="section-title">Услуги и Цены</h2>
+          <p class="section-desc">Выберите категорию, чтобы ознакомиться с подробным прайс-листом.</p>
+        </div>
+
+        <div class="accordion-container animate-on-scroll">
+
+          <!-- Волосы -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./hair_service.jpg">
+              <h3>Волосы</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Консультация</span><span class="price-dots"></span><span
+                    class="price-value">0 р</span></div>
+                <div class="price-row"><span class="price-name">AirTouch (аиртач)</span><span
+                    class="price-dots"></span><span class="price-value">от 14 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">БИОзавивка волос</span><span
+                    class="price-dots"></span><span class="price-value">от 12 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Выход из темного</span><span
+                    class="price-dots"></span><span class="price-value">от 15 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Идеальный блонд. Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 6 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Идеальный блонд. Топ Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 9 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Контуринг. Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Контуринг. Топ Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 9 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Мытье головы и сушка по форме стрижки</span><span
+                    class="price-dots"></span><span class="price-value">от 1 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Мытье головы ПЕРЕД УКЛАДКОЙ</span><span
+                    class="price-dots"></span><span class="price-value">от 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание в 1 тон. Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 5 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание в 1 тон. Топ мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Рассветление прядей (блики)</span><span
+                    class="price-dots"></span><span class="price-value">от 2 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание корней. Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 4 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание корней. Топ Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 5 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Пилинг кожи головы (доп. услуга)</span><span
+                    class="price-dots"></span><span class="price-value">400 ₽</span></div>
+                <div class="price-row"><span class="price-name">Подравнивание кончиков</span><span
+                    class="price-dots"></span><span class="price-value">от 1 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Прическа</span><span class="price-dots"></span><span
+                    class="price-value">от 3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Профессиональный салонный уход</span><span
+                    class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Сложное окрашивание. Топ мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 18 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Сложное окрашивание. Мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 13 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Стрижка женская (короткие, до подбородка)</span><span
+                    class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Стрижка женская (средние, до лопаток)</span><span
+                    class="price-dots"></span><span class="price-value">от 2 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Стрижка женская (длинные, от лопаток)</span><span
+                    class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Стрижка + салонный уход</span><span
+                    class="price-dots"></span><span class="price-value">4 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция челки</span><span
+                    class="price-dots"></span><span class="price-value">от 700 ₽</span></div>
+                <div class="price-row"><span class="price-name">Создание челки</span><span
+                    class="price-dots"></span><span class="price-value">от 1 200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Тонирование, окрашивание тон в тон</span><span
+                    class="price-dots"></span><span class="price-value">от 5 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Тонирование. Топ мастер</span><span
+                    class="price-dots"></span><span class="price-value">от 7 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Трихоскопия</span><span class="price-dots"></span><span
+                    class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Укладка волос на утюг и/или плойку</span><span
+                    class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция сложного окрашивания</span><span
+                    class="price-dots"></span><span class="price-value">от 11 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">БИОзавивка волос (короткие)</span><span
+                    class="price-dots"></span><span class="price-value">6 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Ногти -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./agma_yandex_01.jpg">
+              <h3>Ногти</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Френч/втирка/стемпинг ДИЗАЙН 1 шт (1 ноготь)</span><span
+                    class="price-dots"></span><span class="price-value">50 ₽</span></div>
+                <div class="price-row"><span class="price-name">ПЛЁНКИ (установка дизайна 1шт)</span><span
+                    class="price-dots"></span><span class="price-value">100 ₽</span></div>
+                <div class="price-row"><span class="price-name">Маникюр аппаратный /Комби (без покрытия)</span><span
+                    class="price-dots"></span><span class="price-value">от 1 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Маникюр мужской</span><span
+                    class="price-dots"></span><span class="price-value">от 1 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Маникюр с покрытием ГЕЛЬ ЛАК (укрепление
+                    включено)</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Маникюр Японский Masura /P.shine
+                    (+аппаратный)</span><span class="price-dots"></span><span class="price-value">от 2 000 ₽</span>
+                </div>
+                <div class="price-row"><span class="price-name">Наращивание сломанного ногтя 1 шт</span><span
+                    class="price-dots"></span><span class="price-value">200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Наращивание ногтей на верхние формы</span><span
+                    class="price-dots"></span><span class="price-value">от 3 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Golden trace (стопа+пальчики) без
+                    покрытия</span><span class="price-dots"></span><span class="price-value">от 3 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Golden trace ПОЛНЫЙ + покрытие
+                    ГЕЛЬ-ЛАК</span><span class="price-dots"></span><span class="price-value">от 4 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Kane professional ПОЛНЫЙ + покрытие ГЕЛЬ
+                    ЛАК</span><span class="price-dots"></span><span class="price-value">от 3 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Kane professional без покрытия</span><span
+                    class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Smart Мужской</span><span
+                    class="price-dots"></span><span class="price-value">от 3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Smart БЕЗ ПОКРЫТИЯ</span><span
+                    class="price-dots"></span><span class="price-value">от 2 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр Smart ПОЛНЫЙ + покрытие ГЕЛЬ ЛАК</span><span
+                    class="price-dots"></span><span class="price-value">3 300 ₽</span></div>
+                <div class="price-row"><span class="price-name">ПЛЁНКИ (установка дизайна на 10 пальцев ног)</span><span
+                    class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики) + покрытие ГЕЛЬ
+                    ЛАК</span><span class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Педикюр экспресс (пальчики) без покрытия</span><span
+                    class="price-dots"></span><span class="price-value">от 1 900 ₽</span></div>
+                <div class="price-row"><span class="price-name">Покрытие обычным цветным лаком (Masura)</span><span
+                    class="price-dots"></span><span class="price-value">200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Ремонт покрытия (не по гарантии) 1 ноготь</span><span
+                    class="price-dots"></span><span class="price-value">от 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Ремонт покрытия по гарантии (10 дней)</span><span
+                    class="price-dots"></span><span class="price-value">0 ₽</span></div>
+                <div class="price-row"><span class="price-name">Снятие гель лака (без последующего покрытия)</span><span
+                    class="price-dots"></span><span class="price-value">700 ₽</span></div>
+                <div class="price-row"><span class="price-name">Снятие наращенных ногтей</span><span
+                    class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Френч/втирка/стемпинг/кошка ДИЗАЙН 10 ногтей</span><span
+                    class="price-dots"></span><span class="price-value">от 300 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция наращенных ногтей - через месяц</span><span
+                    class="price-dots"></span><span class="price-value">от 3 300 ₽</span></div>
+                <div class="price-row"><span class="price-name">Маникюр детский (5-12 лет)</span><span
+                    class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Омбре/градиент/кошачий глаз 10 ногтей</span><span
+                    class="price-dots"></span><span class="price-value">от 300 ₽</span></div>
+                <div class="price-row"><span class="price-name">Реставрация ногтей верхними формами</span><span
+                    class="price-dots"></span><span class="price-value">3 500 ₽</span></div>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- Брови -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./brows_service.jpg">
+              <h3>Брови</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Ботокс для бровей/ресниц (Доп услуга)</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ БРОВЕЙ»</span><span
+                    class="price-dots"></span><span class="price-value">от 2 200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ РЕСНИЦ И БРОВЕЙ»</span><span
+                    class="price-dots"></span><span class="price-value">от 4 400 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция +прореживание+ окрашивание бровей</span><span
+                    class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция бровей (воск+пинцет)</span><span
+                    class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция+окрашивание бровей</span><span
+                    class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
+                <div class="price-row"><span class="price-name">Ламинирование бровей (без окрашивания и
+                    коррекции)</span><span class="price-dots"></span><span class="price-value">1 400 ₽</span></div>
+                <div class="price-row"><span class="price-name">Мужская коррекция бровей</span><span
+                    class="price-dots"></span><span class="price-value">1 200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание бровей (краска/хна)</span><span
+                    class="price-dots"></span><span class="price-value">1 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Осветление бровей+ тонирование</span><span
+                    class="price-dots"></span><span class="price-value">1 600 ₽</span></div>
+                <div class="price-row"><span class="price-name">Удаление волос на лице (1 зона)</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Ламинирование бровей+ коррекция (без
+                    окрашивания)</span><span class="price-dots"></span><span class="price-value">1 800 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Ресницы -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./lashes_service.jpg">
+              <h3>Ресницы</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">1,5D наращивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">2 600 ₽</span></div>
+                <div class="price-row"><span class="price-name">2D наращивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">2 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">3D наращивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Классическое наращивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">2 400 ₽</span></div>
+                <div class="price-row"><span class="price-name">Комплекс «ЛАМИНИРОВАНИЕ РЕСНИЦ»</span><span
+                    class="price-dots"></span><span class="price-value">от 2 200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция наращивания ресниц 2Д (в течении 2-х
+                    недель)</span><span class="price-dots"></span><span class="price-value">2 300 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция ресниц по гарантии (7 дней)</span><span
+                    class="price-dots"></span><span class="price-value">0 ₽</span></div>
+                <div class="price-row"><span class="price-name">Лучики</span><span class="price-dots"></span><span
+                    class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Мокрый эффект</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Наращивание внешних уголков ресниц</span><span
+                    class="price-dots"></span><span class="price-value">1 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Окрашивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Снятие наращенных ресниц</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Цветное наращивание</span><span
+                    class="price-dots"></span><span class="price-value">3 200 ₽</span></div>
+                <div class="price-row"><span class="price-name">Цветные ресницы (добавление к наращиванию)</span><span
+                    class="price-dots"></span><span class="price-value">500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Экспресс наращивание ресниц</span><span
+                    class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция наращивания ресниц 3D (в течении 2-х
+                    недель)</span><span class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Макияж -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./makeup_service.jpg">
+              <h3>Макияж</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Вечерний макияж</span><span
+                    class="price-dots"></span><span class="price-value">от 2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Дневной макияж</span><span
+                    class="price-dots"></span><span class="price-value">от 2 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Образ (макияж + укладка)</span><span
+                    class="price-dots"></span><span class="price-value">от 4 800 ₽</span></div>
+                <div class="price-row"><span class="price-name">Экспресс макияж</span><span
+                    class="price-dots"></span><span class="price-value">от 1 600 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Перманентный макияж -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./permanent_makeup.jpg">
+              <h3>Перманентный макияж</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Дополнительная коррекция перманентного
+                    макияжа</span><span class="price-dots"></span><span class="price-value">3 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Консультация по перманентному макияжу</span><span
+                    class="price-dots"></span><span class="price-value">0 ₽</span></div>
+                <div class="price-row"><span class="price-name">Коррекция перманентного макияжа</span><span
+                    class="price-dots"></span><span class="price-value">4 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Лазерное удаление татуажа</span><span
+                    class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Перманентный макияж бровей</span><span
+                    class="price-dots"></span><span class="price-value">8 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Рефреш перманентного макияжа</span><span
+                    class="price-dots"></span><span class="price-value">6 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Удаление татуажа ремувером</span><span
+                    class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
+                <div class="price-row"><span class="price-name">Перекрытие старого татуажа</span><span
+                    class="price-dots"></span><span class="price-value">8 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Удаление мини татуировки</span><span
+                    class="price-dots"></span><span class="price-value">2 500 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Лицо -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./face_skincare.jpg">
+              <h3>Лицо</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Карбоновый пилинг</span><span
+                    class="price-dots"></span><span class="price-value">1 500 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Обучение -->
+          <div class="accordion-item">
+            <button class="accordion-header" data-image="./training_class.jpg">
+              <h3>Обучение</h3>
+              <span class="accordion-icon"></span>
+            </button>
+            <div class="accordion-content">
+
+              <div class="price-list">
+                <div class="price-row"><span class="price-name">Курс педикюр - БАЗОВЫЙ (1 день/2 модели)</span><span
+                    class="price-dots"></span><span class="price-value">15 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» Пакет
+                    #2</span><span class="price-dots"></span><span class="price-value">15 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение «Повышение квалификации,
+                    ламинирование»</span><span class="price-dots"></span><span class="price-value">12 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение "Базовый курс - мастер маникюра" 3
+                    дня</span><span class="price-dots"></span><span class="price-value">20 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» пакет
+                    #1</span><span class="price-dots"></span><span class="price-value">10 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение «Базовый курс ламинирование ресниц»</span><span
+                    class="price-dots"></span><span class="price-value">20 000 ₽</span></div>
+                <div class="price-row"><span class="price-name">Обучение «Базовый курс мастер бровист» пакет
+                    #3</span><span class="price-dots"></span><span class="price-value">25 000 ₽</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ REVIEWS ═══════════════════════════════════════ -->
+    <section class="reviews-section section-dark" id="reviews">
+      <div class="container">
+        <div class="reviews-header animate-on-scroll">
+          <span class="section-label">По данным Яндекс Карт</span>
+          <h2 class="section-title">Оценки и отзывы</h2>
+        </div>
+      </div>
+
+      <div class="reviews-carousel-wrap">
+        <div class="reviews-track" id="reviews-track">
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Рейтинг Agma Beauty в Яндекс Картах — 4,4 из 5.</p>
+            <div class="review-author">
+              <div class="review-avatar">4.4</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">рейтинг организации</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">В карточке компании опубликовано 58 оценок и 29 отзывов.</p>
+            <div class="review-author">
+              <div class="review-avatar">58</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">оценки и отзывы</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">В отзывах чаще всего отмечают персонал, маникюр, атмосферу и компетентность.</p>
+            <div class="review-author">
+              <div class="review-avatar">85</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">маникюр: 85% положительных</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Атмосфера в отзывах отмечена как положительная в 100% тематических оценок.</p>
+            <div class="review-author">
+              <div class="review-avatar">100</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">атмосфера</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Компетентность в тематике отзывов отмечена положительно в 100% случаев.</p>
+            <div class="review-author">
+              <div class="review-avatar">100</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">компетентность</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">Посмотреть полный список отзывов и выбрать маршрут можно в карточке Agma Beauty.</p>
+            <div class="review-author">
+              <div class="review-avatar">→</div>
+              <div class="review-author-info">
+                <span class="review-name">Яндекс Карты</span>
+                <span class="review-service">отзывы Agma Beauty</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="reviews-nav">
+          <button class="reviews-btn" id="reviews-prev" aria-label="Назад">←</button>
+          <div class="reviews-dots" id="reviews-dots"></div>
+          <button class="reviews-btn" id="reviews-next" aria-label="Вперёд">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════ CONTACTS ═══════════════════════════════════════ -->
+    <section class="contact section-dark" id="contact">
+      <div class="container contact-container">
+        <div class="contact-info animate-on-scroll">
+          <span class="section-label">Мы здесь</span>
+          <h2 class="section-title" style="color: var(--color-accent)">Свяжитесь с нами</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Телефон</span>
+              <a href="tel:+79126918540" class="contact-link contact-link--dark">+7 (912) 691-85-40</a>
+            </li>
+            <li>
+              <span class="contact-label">Адрес</span>
+              <span class="contact-value">Екатеринбург, ул. Ломоносова, 55</span>
+            </li>
+            <li>
+              <span class="contact-label">Время работы</span>
+              <span class="contact-value">Ежедневно: 10:00 – 20:00</span>
+            </li>
+            <li>
+              <span class="contact-label">Запись онлайн</span>
+              <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="contact-link contact-link--dark">ВКонтакте
+                →</a>
+            </li>
+          </ul>
+          <div class="contact-socials">
+            <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="social-pill">ВКонтакте</a>
+            <a href="https://t.me/+79126918540" target="_blank" class="social-pill">Telegram</a>
+          </div>
+        </div>
+        <div class="contact-map animate-on-scroll">
+          <iframe src="https://yandex.ru/map-widget/v1/?mode=search&text=Екатеринбург,+ул.+Ломоносова,+55&z=16"
+            width="100%" height="100%" frameborder="0" allowfullscreen="true"
+            style="position:relative; border-radius: 12px; border: 1px solid rgba(255,255,255,0.08); min-height: 400px;"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <a href="#home" class="footer-logo">Agma Beauty</a>
+      <p class="footer-copy">© 2026 Agma Beauty. Все права защищены.</p>
+      <p class="footer-addr">Екатеринбург, ул. Ломоносова, 55</p>
     </div>
+  </footer>
+
+  <div class="mobile-bottom-bar">
+    <a href="#services" class="bottom-bar-btn btn-secondary">Прайс-лист</a>
+    <a href="https://vk.com/agmabeauty_ekb" target="_blank" class="bottom-bar-btn btn-primary">Записаться онлайн</a>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" id="cookie-banner">
+    <p>Мы используем файлы cookie для улучшения работы сайта. Оставаясь на сайте, вы соглашаетесь с нашей <a
+        href="#">политикой обработки данных</a>.</p>
+    <button class="btn btn-primary cookie-btn" id="cookie-accept">Понятно</button>
+  </div>
 
 </body>
+
 </html>
