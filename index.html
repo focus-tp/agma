@@ -115,7 +115,18 @@
     section > .max-w-\[1440px\] { padding-left: 18px !important; padding-right: 18px !important; }
     section.py-20 { padding-top: 56px !important; padding-bottom: 56px !important; }
 
-    .min-h-\[92vh\] { min-height: auto !important; padding-top: 28px !important; padding-bottom: 64px !important; }
+    .hero-section { 
+      min-height: calc(100svh - 76px) !important;
+      padding-top: 28px !important;
+      padding-bottom: 48px !important;
+      background-image: linear-gradient(90deg, rgba(10,10,9,.95) 0%, rgba(10,10,9,.72) 56%, rgba(10,10,9,.42) 100%), url('./agma-founder-fashion.png');
+      background-size: cover;
+      background-position: 72% center;
+      background-repeat: no-repeat;
+    }
+    .hero-section .hero-portrait-column { display: none !important; }
+    .hero-section .grid { gap: 28px !important; padding-top: 28px !important; }
+    .min-h-\[92vh\] { min-height: auto !important; }
     .min-h-\[92vh\] .border-b { padding-bottom: 22px !important; }
     .min-h-\[92vh\] .grid { gap: 36px !important; padding-top: 34px !important; }
     .min-h-\[92vh\] h1 { font-size: clamp(2.75rem, 13vw, 3.7rem) !important; line-height: 1.03 !important; }
@@ -213,7 +224,7 @@
 </nav>
 <main class="pt-24 w-full">
 <!-- HERO SECTION: BESPOKE EDITORIAL LAYOUT -->
-<section class="relative min-h-[92vh] flex items-center pt-8 pb-20 lg:py-24 border-b editorial-subtle-border overflow-hidden">
+<section class="hero-section relative min-h-[92vh] flex items-center pt-8 pb-20 lg:py-24 border-b editorial-subtle-border overflow-hidden">
 <!-- Ambient light leak -->
 <div class="pointer-events-none absolute top-12 left-1/4 w-[700px] h-[500px] bg-primary/5 rounded-full blur-[140px]"></div>
 <div class="max-w-[1440px] mx-auto px-6 lg:px-14 w-full">
@@ -273,7 +284,7 @@
 </div>
 </div>
 <!-- Right: Editorial Image Composition with Overlap -->
-<div class="lg:col-span-6 relative">
+<div class="hero-portrait-column lg:col-span-6 relative">
 <div class="relative w-full max-w-lg mx-auto lg:max-w-none">
 <!-- Main Portrait -->
 <div class="relative w-full max-w-[430px] aspect-[3/4] rounded-sm overflow-hidden border border-white/10 shadow-2xl ml-auto">
